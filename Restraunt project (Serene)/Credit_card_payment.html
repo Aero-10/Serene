@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Credit Card</title>
+        <link rel="stylesheet" href="credit.css">
+    </head>
+    <body>
+        <header>
+            <p class="topnav">
+                <a href="index.html" >Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="shopping_cart.html">Cart</a>
+                <a href="Login.html">Login</a>
+                <a href="Credit_card_payment.html" class="active">Payment</a>
+            </p>
+            <main>
+                <form  align="center" id="form">
+                    <p>PAYMENT</p>
+                    <input type="text" name="card number" placeholder="Card Number" id="card_number" pattern="[0-9]{16}" required><br><Br>
+                    <input type="text" name="account holder" placeholder="Account Holder" id="username" required><br><BR>
+                    <input type="number" name="cvv" placeholder="CVV" max="999" id="pass" required>
+                    <br><br><br><br>
+                    <a href="order_confirmation.html">
+                    <input type="button" value="PAY" name="PAY" id="paybut" >
+                    </a><br><br>
+                </form>
+            </main>
+    </body>
+</html>
